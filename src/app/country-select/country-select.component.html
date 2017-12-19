@@ -1,0 +1,5 @@
+<select [formControl]="controlDir.control" #select placeholder="Country" i18n-placeholder (click)="onTouched()"
+        (change)="onChange($event.value)" [required]="required">
+  <option value="at">Austria</option>
+  <option value="au">Australia</option>
+</select>
